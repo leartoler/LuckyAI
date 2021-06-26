@@ -343,7 +343,8 @@ PlayerSettings:
     - OpenVR
   - m_BuildTarget: Windows Store Apps
     m_Enabled: 0
-    m_Devices: []
+    m_Devices:
+    - None
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
@@ -717,6 +718,6 @@ PlayerSettings:
   projectName: 
   organizationId: 
   cloudEnabled: 0
-  enableNativePlatformBackendsForNewInputSystem: 0
-  disableOldInputManagerSupport: 0
+  enableNativePlatformBackendsForNewInputSystem: 1
+  disableOldInputManagerSupport: 1
   legacyClampBlendShapeWeights: 0
