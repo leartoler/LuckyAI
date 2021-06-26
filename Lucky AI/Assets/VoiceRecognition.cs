@@ -9,6 +9,7 @@ public class VoiceRecognition : MonoBehaviour
 {
 	private KeywordRecognizer keywordRecognizer;
 	private Dictionary<string, Action> actions = new Dictionary<string, Action>();
+	public  ParticleSystem particles;
 
 void Start()
 {
@@ -42,7 +43,7 @@ private void Back()
 
 private void Up()
 {
-	transform.Translate(1,0,0); //buscar las variables para cada uno de los efectos de particulas
+	particles.Play(); //buscar las variables para cada uno de los efectos de particulas
 }
 
 private void Down()
